@@ -8,6 +8,14 @@
 
 import miniaudio
 import sys
+import urllib.request
+
+class MP3Source(miniaudio.StreamableSource):
+    def __init__(self, url):
+        self.response = urllib.request.urlopen(url)
+
+    def read(self, num_bytes):
+        return self.response.read(num_bytes)
 
 # color variables
 
@@ -147,8 +155,8 @@ try :
 
             try:
 
-                source = miniaudio.IceCastClient(f"{url}{Nsurahint}.mp3")
-                stream = miniaudio.stream_any(source, source.audio_format)
+                source = MP3Source(f"{url}{Nsurahint}.mp3")
+                stream = miniaudio.stream_any(source, miniaudio.FileFormat.MP3)
 
                 break
 
