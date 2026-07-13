@@ -100,3 +100,7 @@ Quran audio streams are provided by the MP3Quran network.
 ## 🐱 Special Thanks
 
 A special thanks to mimi — the legendary, the great, the gentle cat.
+
+---
+
+### If you like it, give it a star :)
