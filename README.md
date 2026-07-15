@@ -1,16 +1,17 @@
 # 📖 quranPlayer
 
-A lightweight terminal Quran player that streams Quran recitations directly from MP3Quran servers.
+A lightweight terminal Quran player that streams or downloads Quran recitations directly from MP3Quran servers.
 
 ## Features
 
 * Listen to Quran recitations directly from the terminal
+* Download Quran recitations as MP3 files
 * Supports multiple famous Quran reciters
 * Select any Surah from 1 to 114
 * Automatic Surah number formatting (`001.mp3` → `114.mp3`)
 * Colorized terminal interface
 * Input validation and error handling
-* Internet streaming without downloading audio files
+* Internet streaming and downloading from MP3Quran servers
 * Works on Linux and Windows
 
 ## Supported Reciters
@@ -25,6 +26,11 @@ A lightweight terminal Quran player that streams Quran recitations directly from
 * Saud Al-Shuraim
 * Ahmed Al-Ajmi
 * Abdul Rahman Al-Sudais
+* Abu Bakr Al-Shatri
+* Muhammad Ayyoub
+* Nasser Al-Qatami
+* Ali Al-Hudhaifi
+* Khalifa Al-Tunaiji
 
 ## Requirements
 
@@ -67,11 +73,12 @@ python3 quranPlayer.py
 ## How It Works
 
 1. Start the program
-2. Select your preferred Quran reciter
-3. Enter a Surah number (1–114)
-4. The application connects to MP3Quran servers
-5. The selected Surah begins streaming and playing
-6. Choose to restart the application or quit
+2. Choose whether to listen online or download an audio file
+3. Select your preferred Quran reciter
+4. Enter a Surah number (1–114)
+5. The application connects to MP3Quran servers
+6. The selected Surah is streamed or downloaded
+7. Choose to restart the application or quit
 
 ## Error Codes
 
