@@ -70,23 +70,6 @@ If your system uses `python3`:
 python3 quranPlayer.py
 ```
 
-### Linux Executable Mode
-
-You can make the script executable and run it directly:
-
-```bash
-chmod +x quranPlayer.py
-./quranPlayer.py
-```
-
-The script uses:
-
-```python
-#!/usr/bin/env python3
-```
-
-to automatically locate and use Python 3 on Unix-like systems.
-
 ## How It Works
 
 1. Start the program
