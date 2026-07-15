@@ -1,73 +1,113 @@
-# quranPlayer
+# 📖 quranPlayer
 
-![Python](https://img.shields.io/badge/python-3-blue) ![License: GPL](https://img.shields.io/badge/license-GPL-blue)
-
-A command-line tool for streaming or downloading Quran recitations in Arabic, with a choice of fifteen reciters.
-
-## Description
-
-quranPlayer is an interactive terminal application written in Python. It lets the user pick a reciter and a surah number, then either stream the audio directly through the speakers or download it as an MP3 file to the local machine. Audio streaming is handled by the `miniaudio` library, and files are fetched from `mp3quran.net` servers using `urllib`. The interface is menu-driven and uses colored terminal output.
+A lightweight terminal Quran player that streams or downloads Quran recitations directly from MP3Quran servers.
 
 ## Features
 
-- Stream a chosen surah online without saving it to disk
-- Download a chosen surah as an MP3 file to the script's directory
-- Choose from fifteen reciters, including Abdul Basit Abdus Samad, Mishary Rashid Alafasy, and Abdul Rahman Al-Sudais
-- Select any surah by its number (1 to 114)
-- Restart the session or quit after each playback or download
-- Colored terminal output using ANSI escape codes, with automatic enabling on Windows
-- Input validation with descriptive error messages for invalid options, non-numeric input, out-of-range surah numbers, and network failures
+* Listen to Quran recitations directly from the terminal
+* Download Quran recitations as MP3 files
+* Supports multiple famous Quran reciters
+* Select any Surah from 1 to 114
+* Automatic Surah number formatting (`001.mp3` → `114.mp3`)
+* Colorized terminal interface
+* Input validation and error handling
+* Internet streaming and downloading from MP3Quran servers
+* Works on Linux and Windows
+
+## Supported Reciters
+
+* Abdul Basit Abdus Samad
+* Mahmoud Khalil Al-Husary
+* Mohamed Siddiq Al-Minshawi
+* Mishary Rashid Alafasy
+* Maher Al-Muaiqly
+* Yasser Al-Dosari
+* Saad Al-Ghamdi
+* Saud Al-Shuraim
+* Ahmed Al-Ajmi
+* Abdul Rahman Al-Sudais
+* Abu Bakr Al-Shatri
+* Muhammad Ayyoub
+* Nasser Al-Qatami
+* Ali Al-Hudhaifi
+* Khalifa Al-Tunaiji
 
 ## Requirements
 
-- Python 3
-- An internet connection, for both streaming and downloading
+* Python 3.x
+* miniaudio
 
 ## Installation
-
-Clone the repository and install its dependencies:
 
 ```bash
 git clone https://github.com/MohssineX/quranPlayer.git
 cd quranPlayer
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-The only dependency is the `miniaudio` library, used for decoding and playing the streamed MP3 audio.
+Or:
+
+```bash
+pip install miniaudio
+```
 
 ## Usage
 
-Run the script from the project directory:
+Run the program:
 
 ```bash
 python quranPlayer.py
 ```
 
-The program then guides the user through a series of prompts in the terminal to select an action, a reciter, and a surah.
+If your system uses `python3`:
 
-## How it works
+```bash
+python3 quranPlayer.py
+```
 
-1. Press Enter to start.
-2. Choose whether to listen to the Quran online or download an audio file.
-3. Choose one of the fifteen available reciters.
-4. Enter the surah number (1 to 114).
-5. The program either streams the audio through `miniaudio.PlaybackDevice`, or downloads it in chunks and saves it as `quranPlayerR<reciter>S<surah>.mp3` next to the script.
-6. After playback or download finishes, choose to restart (`r`) or quit (`q`).
+## How It Works
 
-## Troubleshooting
+1. Start the program
+2. Choose whether to listen online or download an audio file
+3. Select your preferred Quran reciter
+4. Enter a Surah number (1–114)
+5. The application connects to MP3Quran servers
+6. The selected Surah is streamed or downloaded
+7. Choose to restart the application or quit
 
-| Code | Meaning |
-|---|---|
-| `err001` | The entered reciter number does not exist |
-| `err002` | The entered surah number is not a valid integer |
-| `err003` | The entered surah number is outside the 1-114 range |
-| `err004` | Could not reach the audio server; check the internet connection |
-| `err005` | The restart/quit choice was neither `r` nor `q` |
+## Error Codes
+
+| Code   | Description                                                            |
+| ------ | ---------------------------------------------------------------------- |
+| err001 | Invalid reciter number                                                 |
+| err002 | Invalid input (numbers only)                                           |
+| err003 | Invalid Surah number (must be between 1 and 114)                       |
+| err004 | Unable to connect to the audio stream (check your internet connection) |
+| err005 | Invalid choice (must be `r` or `q`)                                    |
+
+---
 
 ## License
 
-This project is licensed under the GPL license. See the [LICENSE](LICENSE) file in the repository for the exact version and full terms.
+This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)**
+
+---
 
 ## Acknowledgments
 
-Audio files are served by [mp3quran.net](https://mp3quran.net).
+Quran audio streams are provided by the MP3Quran network.
+
+---
+
+## 🐱 Special Thanks
+
+A special thanks to mimi — the legendary, the great, the gentle cat.
+
+---
+
+### If you like it, give it a star :)
