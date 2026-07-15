@@ -1,5 +1,9 @@
 # 📖 quranPlayer
 
+![Python](https://img.shields.io/badge/python-3-blue)
+![License](https://img.shields.io/badge/license-GPL-blue)
+
+
 A lightweight terminal Quran player that streams or downloads Quran recitations directly from MP3Quran servers.
 
 ## Features
