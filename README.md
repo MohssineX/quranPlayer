@@ -11,7 +11,6 @@ A lightweight terminal Quran player that streams or downloads Quran recitations 
 * Download Quran recitations as MP3 files
 * Supports multiple famous Quran reciters
 * Select any Surah from 1 to 114
-* Automatic Surah number formatting (`001.mp3` → `114.mp3`)
 * Colorized terminal interface
 * Input validation and error handling
 * Internet streaming and downloading from MP3Quran servers
