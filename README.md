@@ -10,7 +10,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 ## Features 
 
 - Listen to Quran recitations directly from the terminal
-- It works on Linux, Windows, and Mac OS systems.
+- It works on Linux, Windows, and Mac OS systems
 - Internet streaming and downloading
 - Supports multiple famous Quran reciters
 - Lightweight and works well on devices with limited resources
