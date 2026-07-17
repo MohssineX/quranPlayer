@@ -49,11 +49,6 @@ A lightweight Quran player built with Python, operating through a terminal and s
 
 ```bash
 git clone https://github.com/MohssineX/quranPlayer.git
-```
-
-and
-
-```bash
 cd quranPlayer
 ```
 
