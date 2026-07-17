@@ -10,7 +10,7 @@ A lightweight Quran player built with Python, operating through a terminal and s
 ## Features 
 
 - Listen to Quran recitations directly from the terminal
-- Works on Linux and Windows
+- It works on Linux, Windows, and Mac OS systems.
 - Internet streaming and downloading
 - Supports multiple famous Quran reciters
 - Lightweight and works well on devices with limited resources
@@ -32,6 +32,12 @@ A lightweight Quran player built with Python, operating through a terminal and s
 * Nasser Al-Qatami
 * Ali Al-Hudhaifi
 * Khalifa Al-Tunaiji
+
+## Supported Platforms
+
+- Windows
+- Linux
+- macOS
 
 ## Requirements
 
