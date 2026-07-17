@@ -43,6 +43,7 @@ A lightweight Quran player built with Python, operating through a terminal and s
 
 * Python 3.10
 * miniaudio
+* Internet connection
 
 ## Installation
 
