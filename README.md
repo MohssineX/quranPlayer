@@ -41,9 +41,10 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 
 ## Requirements
 
-* Python 3.10
+* Python 3.10 or later
 * miniaudio
 * Internet connection
+* Terminal with ANSI escape sequence support
 
 ## Installation
 
