@@ -1,20 +1,19 @@
-# 📖 quranPlayer
+# quranPlayer
 
 ![Python](https://img.shields.io/badge/python-3-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
 
-A lightweight terminal Quran player that streams or downloads Quran recitations directly from MP3Quran servers.
+A lightweight Quran player built with Python, operating through a terminal and supporting downloading and streaming the Quran from MP3Quran servers.
 
-## Features
+![quranApp](quran.png)
 
-* Listen to Quran recitations directly from the terminal
-* Download Quran recitations as MP3 files
-* Supports multiple famous Quran reciters
-* Select any Surah from 1 to 114
-* Colorized terminal interface
-* Input validation and error handling
-* Internet streaming and downloading from MP3Quran servers
-* Works on Linux and Windows
+## Features 
+
+- Listen to Quran recitations directly from the terminal
+- Works on Linux and Windows
+- Internet streaming and downloading
+- Supports multiple famous Quran reciters
+- Lightweight and works well on devices with limited resources
 
 ## Supported Reciters
 
@@ -36,23 +35,28 @@ A lightweight terminal Quran player that streams or downloads Quran recitations 
 
 ## Requirements
 
-* Python 3.x
+* Python 3.10
 * miniaudio
 
 ## Installation
 
 ```bash
 git clone https://github.com/MohssineX/quranPlayer.git
+```
+
+and
+
+```bash
 cd quranPlayer
 ```
 
-Install dependencies:
+### Install dependencies :
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Or:
+Or
 
 ```bash
 pip install miniaudio
@@ -60,18 +64,17 @@ pip install miniaudio
 
 ## Usage
 
-Run the program:
+Run the program :
 
 ```bash
 python quranPlayer.py
 ```
 
-If your system uses `python3`:
+If your system uses `python3` :
 
 ```bash
 python3 quranPlayer.py
 ```
-
 ## How It Works
 
 1. Start the program
@@ -81,16 +84,6 @@ python3 quranPlayer.py
 5. The application connects to MP3Quran servers
 6. The selected Surah is streamed or downloaded
 7. Choose to restart the application or quit
-
-## Error Codes
-
-| Code   | Description                                                            |
-| ------ | ---------------------------------------------------------------------- |
-| err001 | Invalid reciter number                                                 |
-| err002 | Invalid input (numbers only)                                           |
-| err003 | Invalid Surah number (must be between 1 and 114)                       |
-| err004 | Unable to connect to the audio stream (check your internet connection) |
-| err005 | Invalid choice (must be `r` or `q`)                                    |
 
 ---
 
@@ -102,7 +95,7 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 
 ## Acknowledgments
 
-Quran audio streams are provided by the MP3Quran network.
+Quran audio are provided by the MP3Quran network.
 
 ---
 
@@ -113,3 +106,4 @@ A special thanks to mimi — the legendary, the great, the gentle cat.
 ---
 
 ### If you like it, give it a star :)
+
