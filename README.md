@@ -102,7 +102,7 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 
 ## Acknowledgments
 
-Quran audio are provided by the MP3Quran network.
+Quran audio is provided by the MP3Quran network.
 
 ---
 
