@@ -10,7 +10,6 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 ## Features 
 
 - Listen to Quran recitations directly from the terminal
-- It works on Linux, Windows, and Mac OS systems
 - Internet streaming and downloading
 - Supports multiple famous Quran reciters
 - Lightweight and works well on devices with limited resources
@@ -48,6 +47,8 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 
 ## Installation
 
+### Clone the repository :
+
 ```bash
 git clone https://github.com/MohssineX/quranPlayer.git
 cd quranPlayer
@@ -78,16 +79,6 @@ If your system uses `python3` :
 ```bash
 python3 quranPlayer.py
 ```
-## How It Works
-
-1. Start the program
-2. Choose whether to listen online or download an audio file
-3. Select your preferred Quran reciter
-4. Enter a Surah number (1–114)
-5. The application connects to MP3Quran servers
-6. The selected Surah is streamed or downloaded
-7. Choose to restart the application or quit
-
 ---
 
 ## License
@@ -98,7 +89,7 @@ This project is licensed under the **[GNU General Public License v3.0](https://w
 
 ## Acknowledgments
 
-Quran audio is provided by the MP3Quran network.
+Recitations are streamed and downloaded from the MP3Quran network (mp3quran.net).
 
 ---
 
