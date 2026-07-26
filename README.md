@@ -95,7 +95,7 @@ Recitations are streamed and downloaded from the MP3Quran network (mp3quran.net)
 
 ## 🐱 Special Thanks
 
-A special thanks to mimi — the legendary, the great, the gentle cat.
+A special thanks to **mimi** — the legendary, the great, the gentle cat.
 
 ---
 
