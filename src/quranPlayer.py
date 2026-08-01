@@ -13,7 +13,6 @@ try :
     import os
     import urllib.request
 
-
     # color variables
 
     color_green = "\033[32m"
@@ -21,56 +20,61 @@ try :
     color_red = "\033[31m"
     color_reset = "\033[0m"
 
-
     # Enable ANSI escape codes on Windows (not needed on Linux/Mac)
 
     if sys.platform == "win32" :
+
         os.system("")
 
     running = True
-
-
-
 
     while running :
 
         print("\033c", end="")
 
         print(f"""{color_green} 
-                                    ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗
-                                   ██╔═══██╗██║   ██║██╔══██╗██╔══██╗████╗  ██║
-                                   ██║   ██║██║   ██║██████╔╝███████║██╔██╗ ██║
-                                   ██║▄▄ ██║██║   ██║██╔══██╗██╔══██║██║╚██╗██║
-                                   ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██║ ╚████║
-                                    ╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝
-                                                                                {color_reset}""")
+
+                 ██████╗ ██╗   ██╗██████╗  █████╗ ███╗   ██╗
+                ██╔═══██╗██║   ██║██╔══██╗██╔══██╗████╗  ██║
+                ██║   ██║██║   ██║██████╔╝███████║██╔██╗ ██║
+                ██║▄▄ ██║██║   ██║██╔══██╗██╔══██║██║╚██╗██║
+                ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██║ ╚████║
+                 ╚══▀▀═╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ 
+
+                                                                {color_reset}""")
 
         print(f"{color_yellow}Welcome to the quranPlayer app{color_reset}")
         print("")
 
-        input("Press the Enter button to start using the Quran player : ")
+        input("Press the Enter button to start using the quranPlayer : ")
         print("")
 
         while True :
+
             print("Choose what you want quranPlayer to do.")
             print("")
+
             print("1 / Listen to the Quran online")
             print("2 / Download audio file")
             print("")
+
             option = input("Enter option number : ") 
             print("")
 
             if option == "1" :
+
                 break
+
             elif option == "2" :
+
                 break
+
             else :
+
                 print(f"{color_red}Sorry, this option is not available. Please try again :({color_reset}")
                 print("")
 
         
-
-
         print("Quran Reciters : ")
         print("")
         print(f"{color_green}1 / Abdul Basit Abdus Samad{color_reset}")
@@ -89,8 +93,6 @@ try :
         print(f"{color_green}14 / Ali Al-Hudhaifi{color_reset}")
         print(f"{color_green}15 / Khalifa Al-Tunaiji{color_reset}")
         print("")
-
-
 
         while True :
 
@@ -210,7 +212,6 @@ try :
 
                     try:
                         
-
                         class MP3Source(miniaudio.StreamableSource) :
 
                             def __init__(self, url) :
@@ -224,13 +225,11 @@ try :
 
                         break
 
-
                     except Exception  :
 
                         input(f"{color_red}err004 : Please check your internet or Wi-Fi connection :({color_reset}")
                         print("")
                         
-
             else :
 
                 try :
@@ -245,12 +244,14 @@ try :
 
                     with urllib.request.urlopen(f"{url}{Nsurahint}.mp3") as response :
 
-                        with open(file_path, "wb") as file:
+                        with open(file_path, "wb") as file :
 
                             while True :
 
                                 chunk = response.read(65536)
-                                if not chunk:
+
+                                if not chunk :
+
                                     break
 
                                 file.write(chunk)
@@ -270,7 +271,7 @@ try :
 
         if option == "1" :
             
-            with miniaudio.PlaybackDevice() as device:
+            with miniaudio.PlaybackDevice() as device :
 
                 device.start(stream)
                 print("The Quran is playing")
@@ -278,34 +279,32 @@ try :
                 
                 print(f"{color_yellow}Thank you for using quranPlayer!{color_reset}")
                 print("")
-                user_action = input(f"{color_green}Type 'r' to restart or 'q' to quit : {color_reset}")
 
-        
+                user_action = input(f"{color_green}Type 'r' to restart or 'q' to quit : {color_reset}")
 
         while True :
                     
-            
                     if user_action == "q" :
+
                         print()
                         print(f"{color_yellow}goodbye{color_reset}")
                         running = False
                         break
             
-            
-            
                     elif user_action == "r" :
+
                         print("\033c" , end="")
             
                         running = True
                         break
             
                     else :
+
                         print("")
                         print(f"{color_red}err005 : Choice is not ('r' or 'q') please try again :( {color_reset}")
                         print("")
                         user_action = input(f"{color_green}Type 'r' to restart or 'q' to quit : {color_reset}")
             
-
 except KeyboardInterrupt :
 
         print("")
