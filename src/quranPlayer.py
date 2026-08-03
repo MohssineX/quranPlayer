@@ -54,8 +54,8 @@ try :
             print("Choose what you want quranPlayer to do.")
             print("")
 
-            print("1 / Listen to the Quran online")
-            print("2 / Download audio file")
+            print("[1] Listen to the Quran online")
+            print("[2] Download audio file")
             print("")
 
             option = input("Enter option number : ") 
@@ -74,24 +74,25 @@ try :
                 print(f"{color_red}Sorry, this option is not available. Please try again :({color_reset}")
                 print("")
 
-        
         print("Quran Reciters : ")
         print("")
-        print(f"{color_green}1 / Abdul Basit Abdus Samad{color_reset}")
-        print(f"{color_green}2 / Mahmoud Khalil Al-Husary{color_reset}")
-        print(f"{color_green}3 / Mohamed Siddiq Al-Minshawi{color_reset}")
-        print(f"{color_green}4 / Mishary Rashid Alafasy{color_reset}")
-        print(f"{color_green}5 / Maher Al-Muaiqly{color_reset}")
-        print(f"{color_green}6 / Yasser Al-Dosari{color_reset}")
-        print(f"{color_green}7 / Saad Al-Ghamdi{color_reset}")
-        print(f"{color_green}8 / Saud Al-Shuraim{color_reset}")
-        print(f"{color_green}9 / Ahmed Al-Ajmi{color_reset}")
-        print(f"{color_green}10 / Abdul Rahman Al-Sudais{color_reset}")
-        print(f"{color_green}11 / Abu Bakr Al-Shatri{color_reset}")
-        print(f"{color_green}12 / Muhammad Ayyoub{color_reset}")
-        print(f"{color_green}13 / Nasser Al-Qatami{color_reset}")
-        print(f"{color_green}14 / Ali Al-Hudhaifi{color_reset}")
-        print(f"{color_green}15 / Khalifa Al-Tunaiji{color_reset}")
+        print(f"{color_yellow}╭─────────────────────────────────────────────────────────────╮{color_reset}")
+        print(f"{color_yellow}│{color_green}[1] Abdul Basit Abdus Samad    │ [16] Ali Jaber              {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[2] Mahmoud Khalil Al-Husary   │ [17] Bandar Baleela         {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[3] Mohamed Siddiq Al-Minshawi │ [18] Khalid Al-Jalil        {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[4] Mishary Rashid Alafasy     │ [19] Abdullah Basfar        {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[5] Maher Al-Muaiqly           │ [20] Salah Bukhatir         {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[6] Yasser Al-Dosari           │ [21] Abdul Mohsen Al-Qasim  {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[7] Saad Al-Ghamdi             │ [22] Abdullah Al-Juhany     {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[8] Saud Al-Shuraim            │ [23] Salah Al-Budair        {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[9] Ahmed Al-Ajmi              │ [24] Hani Al-Rifai          {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[10] Abdul Rahman Al-Sudais    │ [25] Mohamed Gibril         {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[11] Abu Bakr Al-Shatri        │ [26] Mahmoud Ali Al-Banna   {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[12] Muhammad Ayyoub           │ [27] Mustafa Ismail         {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[13] Nasser Al-Qatami          │ [28] Abdul Bari Al-Thubaity {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[14] Ali Al-Hudhaifi           │ [29] Wadee Al-Yamani        {color_yellow}│{color_reset}")
+        print(f"{color_yellow}│{color_green}[15] Khalifa Al-Tunaiji        │ [30] Khalid Al-Qahtani      {color_yellow}│{color_reset}")
+        print(f"{color_yellow}╰─────────────────────────────────────────────────────────────╯{color_reset}")
         print("")
 
         while True :
@@ -131,7 +132,7 @@ try :
 
             elif reciter == "7" :
 
-                url = "https://server6.mp3quran.net/ghamdi/"
+                url = "https://server7.mp3quran.net/s_gmd/"
                 break
 
             elif reciter == "8" :
@@ -172,6 +173,81 @@ try :
             elif reciter == "15" :
 
                 url = "https://server12.mp3quran.net/tnjy/"
+                break
+
+            elif reciter == "16" :
+
+                url = "https://server11.mp3quran.net/a_jbr/"
+                break
+
+            elif reciter == "17" :
+
+                url = "https://server6.mp3quran.net/balilah/"
+                break
+
+            elif reciter == "18" :
+
+                url = "https://server10.mp3quran.net/jleel/"
+                break
+
+            elif reciter == "19" :
+
+                url = "https://server6.mp3quran.net/bsfr/"
+                break
+
+            elif reciter == "20" :
+
+                url = "https://server8.mp3quran.net/bu_khtr/"
+                break
+
+            elif reciter == "21" :
+
+                url = "https://server8.mp3quran.net/qasm/"
+                break
+
+            elif reciter == "22" :
+
+                url = "https://server9.mp3quran.net/jhn/"
+                break
+
+            elif reciter == "23" :
+
+                url = "https://server6.mp3quran.net/s_bud/"
+                break
+
+            elif reciter == "24" :
+
+                url = "https://server8.mp3quran.net/hani/"
+                break
+
+            elif reciter == "25" :
+
+                url = "https://server8.mp3quran.net/jbrl/"
+                break
+
+            elif reciter == "26" :
+
+                url = "https://server8.mp3quran.net/bna/"
+                break
+
+            elif reciter == "27" :
+
+                url = "https://server8.mp3quran.net/mustafa/"
+                break
+
+            elif reciter == "28" :
+
+                url = "https://server6.mp3quran.net/thubti/"
+                break
+
+            elif reciter == "29" :
+
+                url = "https://server6.mp3quran.net/wdee3/"
+                break
+
+            elif reciter == "30" :
+
+                url = "https://server10.mp3quran.net/qht/"
                 break
 
             else :
