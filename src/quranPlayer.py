@@ -207,7 +207,7 @@ try :
 
             elif reciter == "22" :
 
-                url = "https://server9.mp3quran.net/jhn/"
+                url = "https://server13.mp3quran.net/jhn/"
                 break
 
             elif reciter == "23" :
