@@ -31,6 +31,21 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 * Nasser Al-Qatami
 * Ali Al-Hudhaifi
 * Khalifa Al-Tunaiji
+* Ali Jaber
+* Bandar Baleela
+* Khalid Al-Jalil
+* Abdullah Basfar
+* Salah Bukhatir
+* Abdul Mohsen Al-Qasim
+* Abdullah Al-Juhany
+* Salah Al-Budair
+* Hani Al-Rifai
+* Mohamed Gibril
+* Mahmoud Ali Al-Banna
+* Mustafa Ismail
+* Abdul Bari Al-Thubaity
+* Wadee Al-Yamani
+* Khalid Al-Qahtani
 
 ## Supported Platforms
 
