@@ -71,7 +71,7 @@ try :
 
             else :
 
-                print(f"{color_red}Sorry, this option is not available. Please try again :({color_reset}")
+                print(f"{color_red}Err101 : Invalid option [Please choose 1 or 2]{color_reset}")
                 print("")
 
         print("Quran Reciters : ")
@@ -252,7 +252,7 @@ try :
 
             else :
 
-                print(f"{color_red}err001 : There is no reciter with this number :( Please try again {color_reset}")
+                print(f"{color_red}Err102 : Invalid reciter number [Please enter a number from 1 to 30]{color_reset}")
                 print("")
 
         while True :
@@ -268,7 +268,7 @@ try :
                 except ValueError :
 
                     print("")
-                    print(f"{color_red}err002 : Please enter a number, not a letter or symbol :( {color_reset}")
+                    print(f"{color_red}Err103 : Invalid input [Please enter a number only]{color_reset}")
                     print("")
 
 
@@ -279,7 +279,7 @@ try :
             
             else :
 
-                print(f"{color_red}err003 : Incorrect Surah number :( Please try again {color_reset}")
+                print(f"{color_red}Err104 : Invalid surah number [Please enter a number between 1 and 114]{color_reset}")
                 print("")
 
         while True :
@@ -303,7 +303,7 @@ try :
 
                     except Exception  :
 
-                        input(f"{color_red}err004 : Please check your internet or Wi-Fi connection :({color_reset}")
+                        input(f"{color_red}Err201 : Playback failed [Check your internet or Wi-Fi connection and try again]{color_reset}")
                         print("")
                         
             else :
@@ -341,7 +341,7 @@ try :
 
                 except Exception :
 
-                        input(f"{color_red}err004 : Please check your internet or Wi-Fi connection :({color_reset}")
+                        input(f"{color_red}Err202 : Download failed [Check your internet connection, available disk space, and folder write permissions]{color_reset}")
                         print("")
 
 
@@ -377,7 +377,7 @@ try :
                     else :
 
                         print("")
-                        print(f"{color_red}err005 : Choice is not ('r' or 'q') please try again :( {color_reset}")
+                        print(f"{color_red}Err105 : Invalid choice [Please enter 'r' to restart or 'q' to quit]{color_reset}")
                         print("")
                         user_action = input(f"{color_green}Type 'r' to restart or 'q' to quit : {color_reset}")
             
