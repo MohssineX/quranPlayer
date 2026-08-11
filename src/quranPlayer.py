@@ -303,7 +303,7 @@ try :
 
                     except Exception  :
 
-                        input(f"{color_red}Err201 : Playback failed [Check your internet or Wi-Fi connection and try again]{color_reset}")
+                        input(f"{color_red}Err201 : Streaming failed [Check your internet or Wi-Fi connection and try again]{color_reset}")
                         print("")
                         
             else :
