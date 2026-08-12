@@ -88,13 +88,17 @@ pip install miniaudio
 Run the program :
 
 ```bash
-python quranPlayer.py
+cd src
+```
+
+```bash
+python main.py
 ```
 
 If your system uses `python3` :
 
 ```bash
-python3 quranPlayer.py
+python3 main.py
 ```
 ---
 
