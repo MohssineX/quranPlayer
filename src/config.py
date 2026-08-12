@@ -6,7 +6,7 @@
 
 appName = "quranPlayer"
 
-# cCOLOR variables
+# COLOR variables
 
 COLOR_GREEN = "\033[32m"
 COLOR_YELLOW = "\033[33m"
