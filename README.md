@@ -11,7 +11,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 > [!NOTE]
 > This project is currently in the **Beta** stage and is still under active development. It may contain bugs, unexpected behavior, or unstable features.
 >
-> This project was developed while I am still learning Python, so the code and architecture may not be perfect and may be improved or changed significantly in future versions.
+> The code and architecture may not be perfect and may be improved or changed significantly in future versions.
 >
 > **feel free to report any bugs or issues.**
 
