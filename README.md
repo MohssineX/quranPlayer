@@ -12,7 +12,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 > 
 > Currently, the **quranPlayer** project is still in **Beta**, so you may encounter errors, unexpected behavior, or unstable features.
 >
-> **feel free to report any bugs or issues.**
+> **Feel free to report any bugs or issues.**
 
 ## Features 
 
