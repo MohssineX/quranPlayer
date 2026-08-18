@@ -9,9 +9,8 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 ![reciters](reciters.png)
 
 > [!NOTE]
-> This project is currently in the **Beta** stage and is still under active development. It may contain bugs, unexpected behavior, or unstable features.
->
-> The code and architecture may not be perfect and may be improved or changed significantly in future versions.
+> 
+> Currently, the **quranPlayer** project is still in **Beta**, so you may encounter errors, unexpected behavior, or unstable features.
 >
 > **feel free to report any bugs or issues.**
 
