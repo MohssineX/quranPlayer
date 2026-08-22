@@ -2,7 +2,7 @@
 
 # quranPlayer
 
-![TilawaPlayer Logo](Logo/TilawaPlayer-logo-180.png)
+![TilawaPlayer Logo](logo/TilawaPlayer-logo-180.png)
 
 ![Python](https://img.shields.io/badge/python-3-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
