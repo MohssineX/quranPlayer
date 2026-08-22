@@ -4,7 +4,7 @@
 
 # Copyright (C) 2026 Mohssine <https://github.com/MohssineX>
 
-appName = "quranPlayer"
+appName = "TilawaPlayer"
 
 # COLOR variables
 
