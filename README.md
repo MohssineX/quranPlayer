@@ -1,11 +1,11 @@
+<div align="center">
+
 # quranPlayer
+
+![TilawaPlayer Logo](icon/TilawaPlayer-icon-180.png)
 
 ![Python](https://img.shields.io/badge/python-3-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
-
-<div align="center">
-
-![TilawaPlayer Logo](icon/TilawaPlayer-icon-180.png)
 
 </div>
 
