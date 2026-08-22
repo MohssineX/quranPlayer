@@ -11,7 +11,7 @@
 
 A lightweight Quran player built with Python that runs in the terminal and supports streaming and downloading Quran recitations from MP3Quran servers.
 
-![quranPlayer](quranPlayer.png)
+![TilawaPlayer](TilawaPlayer.png)
 ![reciters](reciters.png)
 
 > [!NOTE]
