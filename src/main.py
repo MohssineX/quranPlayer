@@ -15,7 +15,7 @@ def handle_interrupt(sig, frame) :
 
     print("")
     print("")
-    print("\033[33mThank you for using quranPlayer!\033[0m")
+    print("\033[33mThank you for using TilawaPlayer!\033[0m")
     sys.exit(0)
 
 signal.signal(signal.SIGINT, handle_interrupt)
@@ -173,7 +173,7 @@ while running :
 
                 script_path = os.path.dirname(os.path.abspath(__file__))
 
-                file_path = os.path.join(script_path, f"quranPlayerR{reciter}S{Nsurahint}.mp3")
+                file_path = os.path.join(script_path, f"TilawaPlayerR{reciter}S{Nsurahint}.mp3")
 
                 print("An audio file is being downloaded...")
 
@@ -194,7 +194,7 @@ while running :
                 print("")
                 print(f"{COLOR_YELLOW}A file was downloaded to {file_path}{COLOR_RESET}")
                 print("")
-                print(f"{COLOR_YELLOW}Thank you for using quranPlayer!{COLOR_RESET}")
+                print(f"{COLOR_YELLOW}Thank you for using TilawaPlayer!{COLOR_RESET}")
                 print("")
 
                 user_action = input(f"{COLOR_GREEN}Type 'r' to restart or 'q' to quit : {COLOR_RESET}")
