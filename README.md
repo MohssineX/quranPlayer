@@ -6,8 +6,7 @@
 
 ![Python](https://img.shields.io/badge/python-3-blue)
 ![License](https://img.shields.io/badge/license-GPLv3-blue)
-![Stars](https://img.shields.io/github/stars/MohssineX/TilawaPlaye?style=social)
-![Forks](https://img.shields.io/github/forks/MohssineX/TilawaPlaye?style=social)
+![Reciters](https://img.shields.io/badge/Reciters-30-1E8A4C)
 
 </div>
 
