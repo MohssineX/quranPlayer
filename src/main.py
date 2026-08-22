@@ -156,7 +156,7 @@ while running :
                         print("The Quran is playing")
                         print("")
                         
-                        print(f"{COLOR_YELLOW}Thank you for using quranPlayer!{COLOR_RESET}")
+                        print(f"{COLOR_YELLOW}Thank you for using TilawaPlayer!{COLOR_RESET}")
                         print("")
 
                         user_action = input(f"{COLOR_GREEN}Type 'r' to restart or 'q' to quit : {COLOR_RESET}")
