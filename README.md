@@ -1,6 +1,6 @@
 <div align="center">
 
-# quranPlayer
+# TilawaPlayer
 
 ![TilawaPlayer Logo](logo/TilawaPlayer-logo-180.png)
 
