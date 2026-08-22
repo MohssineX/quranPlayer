@@ -16,7 +16,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 
 > [!NOTE]
 > 
-> Currently, the **quranPlayer** project is still in **Beta**, so you may encounter errors, unexpected behavior, or unstable features.
+> Currently, the **TilawaPlayer** project is still in **Beta**, so you may encounter errors, unexpected behavior, or unstable features.
 >
 > **Feel free to report any bugs or issues.**
 
@@ -78,7 +78,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 ### Clone the repository :
 
 ```bash
-git clone https://github.com/MohssineX/quranPlayer.git
+git clone https://github.com/MohssineX/TilawaPlayer.git
 cd quranPlayer
 ```
 
