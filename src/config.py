@@ -13,9 +13,14 @@ COLOR_YELLOW = "\033[33m"
 COLOR_RED = "\033[31m"
 COLOR_RESET = "\033[0m"
 
-timeoutCfg = 5
+# Network timeout in seconds (applies to connecting AND to every read,
+# so keep it generous enough for slow connections mid-stream).
+
+timeoutCfg = 15
 
 chunkDownload = 65536
+
+restartPrompt = f"{COLOR_GREEN}Type 'r' to restart or 'q' to quit : {COLOR_RESET}"
 
 reciters = f"""{COLOR_YELLOW}╭─────────────────────────────────────────────────────────────────╮{COLOR_RESET}
 {COLOR_YELLOW}│{COLOR_GREEN} [1] Abdul Basit Abdus Samad    │ [16] Ali Jaber                 {COLOR_YELLOW}│{COLOR_RESET}

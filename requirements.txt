@@ -1,1 +1,1 @@
-miniaudio
+miniaudio>=1.71
