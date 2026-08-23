@@ -81,7 +81,7 @@ A lightweight Quran player built with Python that runs in the terminal and suppo
 
 ```bash
 git clone https://github.com/MohssineX/TilawaPlayer.git
-cd quranPlayer
+cd TilawaPlayer
 ```
 
 ### Install dependencies :
