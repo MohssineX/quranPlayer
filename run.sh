@@ -11,6 +11,8 @@ pip install -r requirements.txt
 if [ $? -ne 0 ]; then
     exit 1
 fi
+
+echo "python3 src/main.py" > run.sh
  
 cd src/
 python3 main.py
