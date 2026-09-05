@@ -9,7 +9,7 @@
 import os
 import config as cfg
 import urllib.request
-from config import COLOR_YELLOW, COLOR_RESET
+from config import COLOR_YELLOW, COLOR_GREEN, COLOR_RESET
 
 def download_surah(url, reciter, Nsurahint):
     script_path = os.path.dirname(os.path.abspath(__file__))
