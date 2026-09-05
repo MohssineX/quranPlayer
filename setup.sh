@@ -5,6 +5,8 @@
 # github : https://github.com/MohssineX
 
 # Copyright (C) 2026 Mohssine <https://github.com/MohssineX>
+
+# setup.sh
  
 if ! command -v pip &> /dev/null; then
     echo "pip is not installed. Please install pip first."
