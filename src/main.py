@@ -211,7 +211,7 @@ while running :
         if user_action == "q" :
 
             print("")
-            print(f"{COLOR_YELLOW}goodbye{COLOR_RESET}")
+            print(f"{COLOR_YELLOW}alsalam alaykoum{COLOR_RESET}")
             running = False
             break
 
