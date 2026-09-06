@@ -115,6 +115,16 @@ python3 main.py
 ```
 ---
 
+## If you are a Linux user :
+
+If you are a Linux user, simply clone the repository and then
+
+```bash
+./setup.sh
+```
+
+It will automatically download the required dependencies and run the application.
+
 ## License
 
 This project is licensed under the **[GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.html)**
